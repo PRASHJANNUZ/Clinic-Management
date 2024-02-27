@@ -1,0 +1,149 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveUserServlet</servlet-name>
+  	<display-name>SaveUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SaveUserServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.DeleteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.UpdateServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ProfileServlet</servlet-name>
+  	<display-name>ProfileServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ProfileServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loader</servlet-name>
+  	<display-name>loader</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.loader</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>demo</servlet-name>
+  	<display-name>demo</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.demo</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>PatientServlet</servlet-name>
+  	<display-name>PatientServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.PatientServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReceptionistServlet</servlet-name>
+  	<display-name>ReceptionistServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ReceptionistServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReportServlet</servlet-name>
+  	<display-name>ReportServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ReportServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ApprovalServlet</servlet-name>
+  	<display-name>ApprovalServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ApprovalServlet</servlet-class>
+  </servlet>
+ 
+
+
+
+
+  
+  
+  <servlet-mapping>
+  	<servlet-name>SaveUserServlet</servlet-name>
+  	<url-pattern>/SaveUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ProfileServlet</servlet-name>
+  	<url-pattern>/ProfileServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loader</servlet-name>
+  	<url-pattern>/loader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>demo</servlet-name>
+  	<url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>PatientServlet</servlet-name>
+  	<url-pattern>/PatientServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>ReceptionistServlet</servlet-name>
+  	<url-pattern>/ReceptionistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReportServlet</servlet-name>
+  	<url-pattern>/ReportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ApprovalServlet</servlet-name>
+  	<url-pattern>/ApprovalServlet</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
